@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Book Appointment | AstraCare Hospital</title>
+    
+    <meta name="description" content="Book an appointment with AstraCare Hospital doctors online. Fast, secure, and reliable healthcare scheduling.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://yourdomain.github.io/appointment.html">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body style="font-family: 'Poppins', sans-serif;">
+
+    <header class="header">
+        <div class="container header-flex">
+            <div class="logo">ASTRA<span>CARE</span></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="departments.html">Departments</a></li>
+                    <li><a href="doctors.html">Doctors</a></li>
+                    <li><a class="active" href="appointment.html">Appointment</a></li>
+                    <li><a href="services.html">Patient Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-header" style="background: linear-gradient(rgba(10,25,47,0.85), rgba(10,25,47,0.85)), url('https://images.unsplash.com/photo-1505751172107-573225a964be?auto=format&fit=crop&q=80&w=1600') center/cover;">
+            <div class="container text-center">
+                <h1 class="fade-in visible">Schedule Your Visit</h1>
+                <p class="fade-in visible">Take the first step towards recovery. Our team will confirm your slot within 24 hours.</p>
+            </div>
+        </section>
+
+        <section class="section">
+            <div class="container">
+                <div class="appointment-wrapper fade-in">
+                    <div class="form-container">
+                        <div class="form-header">
+                            <h2>Patient Details</h2>
+                            <p>Please fill in the information accurately.</p>
+                        </div>
+                        
+                        <form id="appointmentForm" class="form">
+                            <div class="form-grid">
+                                <label class="form-group">
+                                    <span>Full Name</span>
+                                    <input type="text" placeholder="e.g. John Doe" required>
+                                </label>
+
+                                <label class="form-group">
+                                    <span>Email Address</span>
+                                    <input type="email" placeholder="john@example.com" required>
+                                </label>
+
+                                <label class="form-group">
+                                    <span>Phone Number</span>
+                                    <input type="tel" placeholder="+91 XXXXX XXXXX" required>
+                                </label>
+
+                                <label class="form-group">
+                                    <span>Department</span>
+                                    <select required>
+                                        <option value="">Select Department</option>
+                                        <option>Cardiology</option>
+                                        <option>Neurology</option>
+                                        <option>Orthopedics</option>
+                                        <option>Pediatrics</option>
+                                    </select>
+                                </label>
+
+                                <label class="form-group">
+                                    <span>Preferred Date</span>
+                                    <input type="date" required>
+                                </label>
+                            </div>
+
+                            <label class="form-group full-width">
+                                <span>Message / Symptoms (Optional)</span>
+                                <textarea rows="4" placeholder="Briefly describe your medical concern..."></textarea>
+                            </label>
+
+                            <div class="form-footer">
+                                <button type="submit" class="btn-primary">Confirm Appointment Request</button>
+                                <p id="appointmentMsg" class="form-status"></p>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="appointment-info">
+                        <h3>Why Book with Us?</h3>
+                        <ul class="check-list">
+                            <li>Verified Senior Specialists</li>
+                            <li>Zero Waiting Time for Online Bookings</li>
+                            <li>State-of-the-art Diagnostic Support</li>
+                            <li>Secure & Confidential Records</li>
+                        </ul>
+                        <div class="help-box">
+                            <p>Need urgent help?</p>
+                            <a href="tel:+919000011111" class="help-link">+91 90000 11111</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="hospital-footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3 class="footer-logo">AstraCare Hospital</h3>
+                <p class="footer-desc">
+                    Providing compassionate, ethical, and advanced healthcare services. AstraCare is committed to patient safety and clinical excellence.
+                </p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Facebook">Fb</a>
+                    <a href="#" aria-label="Twitter">Tw</a>
+                    <a href="#" aria-label="Instagram">Ig</a>
+                    <a href="#" aria-label="LinkedIn">In</a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Hospital</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About AstraCare</a></li>
+                    <li><a href="departments.html">Departments</a></li>
+                    <li><a href="doctors.html">Our Doctors</a></li>
+                    <li><a href="appointment.html">Book Appointment</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Patient Services</h4>
+                <ul>
+                    <li><a href="services.html">Emergency Care</a></li>
+                    <li><a href="services.html">Diagnostics</a></li>
+                    <li><a href="services.html">Pharmacy</a></li>
+                    <li><a href="services.html">Insurance Support</a></li>
+                    <li><a href="contact.html">Patient Support</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Get in Touch</h4>
+                <p>AstraCare Hospital<br>123 Healthcare Avenue<br>Kannur, Kerala – 670001</p>
+                <p><strong>Email:</strong> info@astracarehospital.com</p>
+                <p><strong>Phone:</strong> +91 90000 22222</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2026 AstraCare Hospital. All Rights Reserved | Designed for Medical Excellence</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
